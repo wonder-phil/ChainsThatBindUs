@@ -1,0 +1,20 @@
+
+qemu-img info 2022-10-10-raspios-armhf-lite.img 
+
+
+qemu-img convert -f raw -O qcow2 2023-10-10-raspios-armhf-lite.img   2021-10.qcow2
+
+
+
+qemu-img resize 2023-10.qcow2  +4G
+
+
+
+qemu-system-arm -M versatilepb \
+                     -cpu arm1176 \
+                     -m 256 -hda "./2023-10.qcow2" \
+                     -net nic -net user,hostfwd=tcp::5022-:22 \
+                     -dtb "./versatile-pb.dtb" \
+                     -kernel "./qemukernel" \
+                     -append "root=/dev/sda2 panic=1 rootfstype=ext4 rw" -no-reboot
+

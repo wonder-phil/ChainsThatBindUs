@@ -1,0 +1,40 @@
+<domain type='qemu'>
+
+  <name>rpi_32</name>
+  <uuid>b6dc9356-f772-4f63-bf78-0fe5f9f11974</uuid>
+  <memory unit='KiB'>262144</memory>
+  <currentMemory unit='KiB'>262144</currentMemory>
+  <os>
+    <type arch='armv7l' machine='versatilepb'>hvm</type>
+    <kernel>/home/pgb/RPi_1/qemukernel</kernel> <!--update path here-->
+    <cmdline>root=/dev/sda2</cmdline>
+    <dtb>/home/pgb/RPi_1/versatile-pb.dtb</dtb>                  <!--update path here-->
+    <boot dev='hd'/>
+  </os>
+  <cpu mode='custom' match='exact' check='none'>
+    <model fallback='forbid'>arm1176</model>
+  </cpu>
+  <devices>
+    <emulator>/usr/bin/qemu-system-arm</emulator>
+    <disk type='file' device='disk'>
+      <driver name='qemu' type='qcow2'/>
+      <source file='/home/pgb/RPi_1/2023-05-03.qcow2'/>                     <!--update path here-->
+      <backingStore/>
+      <target dev='sda' bus='scsi'/>
+      <address type='drive' controller='0' bus='0' target='0' unit='0'/>
+    </disk>
+    <controller type='pci' index='0' model='pci-root'/>
+    <interface type='bridge'>
+      <mac address='52:54:00:ed:eb:c8'/>
+      <source bridge='virbr0'/>
+      <model type='virtio'/>
+      <address type='pci' domain='0x0000' bus='0x00' slot='0x06' function='0x0'/>
+    </interface>
+  <graphics type='spice' autoport='yes'>
+      <listen type='address'/>
+      <image compression='off'/>
+      <gl enable='no' rendernode='/dev/dri/by-path/pci-0000:00:02.0-render'/>
+    </graphics>
+  </devices>
+</domain>
+

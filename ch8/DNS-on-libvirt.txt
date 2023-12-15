@@ -1,0 +1,37 @@
+#
+#
+# From: "The Chains that bind us" by Phillip G Bradford
+#  https://github.com/wonder-phil/BlockchainTechNotes
+#      by P. G. Bradford
+#
+
+Get the IP addresses that were assigned to our RPis by DHCP.
+
+
+RPi> ifconfig  # to get the IP address for each RPi
+
+Suppose they are: 192.168.122.250 and 192.168.122.249  for two seperate RPis.
+
+Then run
+
+Ubuntu> virsh net-edit default
+
+and added the following 
+
+<dns>
+<host ip='192.168.122.250'>
+  <hostname>foobar.com</hostname>
+</host>
+<host ip='192.168.122.249'>
+  <hostname>me.com</hostname>
+</host>
+</dns>
+
+
+After saving these changes
+
+Next destroy and restart the network
+
+Ubuntu> virsh net-destroy default
+Ubuntu> virsh net-start default
+

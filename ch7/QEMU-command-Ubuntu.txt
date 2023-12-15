@@ -1,0 +1,7 @@
+qemu-system-aarch64  -kernel Kernel64 -m 256 -M virt -cpu cortex-a72   \
+-append "root=/dev/vda2 panic=1 rootfstype=ext4 rw" \    
+-drive "file=2023-02-arm64-lite.img,if=none,index=0,media=disk,format=raw,id=disk0"   \
+-device "virtio-blk-pci,drive=disk0,disable-modern=on,disable-legacy=off"   \
+-device "virtio-net-pci,netdev=net0"    \
+-netdev "user,id=net0,hostfwd=tcp::5022-:22"  -no-reboot \
+

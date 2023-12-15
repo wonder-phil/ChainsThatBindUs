@@ -1,0 +1,5 @@
+sudo mount -o loop,offset=4194304 2023-10-10-raspios-bookworm-arm64-lite.img /mnt/rpi/
+
+
+qemu-img convert -f raw -O qcow2 2023-10-10-raspios-armhf-lite.img   2021-10.qcow2
+
