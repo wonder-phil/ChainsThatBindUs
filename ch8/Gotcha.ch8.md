@@ -1,4 +1,4 @@
-# BlockchainTechNotes - Gotchas Chapter 8
+# Gotchas Chapter 8
 
 # From: "Chains that bind us" by Phillip G Bradford
 #  https://github.com/wonder-phil/BlockchainTechNotes
