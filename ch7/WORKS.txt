@@ -1,3 +1,7 @@
+#
+# From: "Chains that bind us" by Phillip G. Bradford
+#  https://github.com/wonder-phil/ChainsThatBindUs
+#     
 qemu-system-aarch64  -kernel Kernel64 -M virt  -cpu cortex-a72   \
 -append "root=/dev/vda2 panic=1 rootfstype=ext4 rw init=/bin/bash" \
 -drive "format=qcow2,file=2023-10-10.qcow2,if=none,index=0,media=disk,id=disk0" \

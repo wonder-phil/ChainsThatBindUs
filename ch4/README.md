@@ -1,5 +1,7 @@
-# Chapter 4 of Blockchain Tech Notes, by P. G. Bradford
-
+#
+# From: "Chains that bind us" by Phillip G. Bradford
+#  https://github.com/wonder-phil/ChainsThatBindUs
+#     
 #
 # Block.py is a basic block
 ##

@@ -1,12 +1,17 @@
-# Gotchas Chapter 4
-
+# Gotchas Chapter 2
+#
+#
 # From: "Chains that bind us" by Phillip G. Bradford
 #  https://github.com/wonder-phil/ChainsThatBindUs
-#      
+#     
 #
 
 ## Some common gotchas
 
-0. Check all files are in the same directory
- 
+0. 
+   
+1.
+2.
+	
+3. 
 

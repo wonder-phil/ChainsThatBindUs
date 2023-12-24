@@ -1,3 +1,8 @@
+#
+# From: "Chains that bind us" by Phillip G. Bradford
+#  https://github.com/wonder-phil/ChainsThatBindUs
+#     
+
 class Queue:
     def __init__(self):
         self.queue = []
@@ -14,4 +19,4 @@ class Queue:
 
     def empty(self):
         return self.queue == []
-}
+

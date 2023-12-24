@@ -1,8 +1,9 @@
 # Gotchas Chapter 6
-
-# From: "The Chains that bind us" by Phillip G Bradford
-#  https://github.com/wonder-phil/BlockchainTechNotes
-#      by P. G. Bradford
+#
+#
+# From: "Chains that bind us" by Phillip G. Bradford
+#  https://github.com/wonder-phil/ChainsThatBindUs
+#     
 #
 
 ## Some common gotchas

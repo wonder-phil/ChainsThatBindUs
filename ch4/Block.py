@@ -1,11 +1,9 @@
 #
-# From: Blockchain Tech Notes by P. G. Bradford
-#
+# From: "Chains that bind us" by Phillip G. Bradford
+#  https://github.com/wonder-phil/ChainsThatBindUs
+#     
 
-#import datetime
 import hashlib
-
-
 #
 #  from Block import Block
 #

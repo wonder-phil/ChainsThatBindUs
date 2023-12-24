@@ -1,9 +1,9 @@
 #
-# Encrypt with public key
+# From: "Chains that bind us" by Phillip G. Bradford
+#  https://github.com/wonder-phil/ChainsThatBindUs
+#     
 #
-# From: "The Chains that bind us" by Phillip G Bradford
-#  https://github.com/wonder-phil/BlockchainTechNotes
-#      by P. G. Bradford
+# Encrypt with a public key     
 #
 #
 # Do the following in order

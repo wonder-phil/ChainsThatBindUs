@@ -1,4 +1,7 @@
-
+#
+# From: "Chains that bind us" by Phillip G. Bradford
+#  https://github.com/wonder-phil/ChainsThatBindUs
+#     
 qemu-img info 2022-10-10-raspios-armhf-lite.img 
 
 

@@ -1,10 +1,10 @@
 #
-# Decrypt with private key
+# From: "Chains that bind us" by Phillip G. Bradford
+#  https://github.com/wonder-phil/ChainsThatBindUs
+#     
 #
+# Decrypt with a private key
 #
-# From: "The Chains that bind us" by Phillip G Bradford
-#  https://github.com/wonder-phil/BlockchainTechNotes
-#      by P. G. Bradford
 #
 #
 # Do the following in order

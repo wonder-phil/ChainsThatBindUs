@@ -1,3 +1,7 @@
+#
+# From: "Chains that bind us" by Phillip G. Bradford
+#  https://github.com/wonder-phil/ChainsThatBindUs
+#     
 qemu-system-aarch64  -kernel Kernel64 -M virt -cpu cortex-a72   \
 -append "root=/dev/vda2 panic=1 rootfstype=ext4 rw  init=/bin/bash" \    
 -drive "file=2023-02-arm64-L.img,if=none,index=0,media=disk,format=raw,id=disk0"   \
