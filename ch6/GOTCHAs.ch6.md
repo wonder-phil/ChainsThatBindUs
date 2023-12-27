@@ -22,7 +22,8 @@
    Rpi_2> ping IP_1   # check that RPi_2 can get to RPi_1
    After 30 seconds, type CTRL-C
    On the bottom check for the % packet-loss.  There should be 0% loss
-1. It is best to start with the same versions of Raspberry Pis. For example, all RPis could be version 4 B+.
+   
+1. It may be best to start so that all Raspberry Pis are the same version. For example, all RPis could be version 4 B+.
    Also all RPis should have the same version of Raspberry Pi OS.  
 
 

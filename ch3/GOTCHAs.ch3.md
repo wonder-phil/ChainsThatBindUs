@@ -14,8 +14,10 @@
    
    Check that both files public_key.pem and secret_key.pem are genrated by key-gen.py
    These files should be human readable.  These are UTF-8 translatios of PEM files.
+   
    secret_key.pem starts with:
    -----BEGIN RSA PRIVATE KEY-----
+   
    public-key.pem starts with:
    -----BEGIN RSA PUBLIC KEY-----
    

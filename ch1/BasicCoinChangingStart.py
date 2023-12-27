@@ -12,7 +12,6 @@ class GreedyChange:
         self.givenTotal = givenTotal
 
     def computeChange(self):
-
         total = self.givenTotal
         indexLargestRemaining = 0
         while total > 0:
