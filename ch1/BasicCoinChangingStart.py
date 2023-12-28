@@ -1,3 +1,4 @@
+# Classical greedy alg
 #
 # From: "Chains that bind us" by Phillip G. Bradford
 #  https://github.com/wonder-phil/ChainsThatBindUs
@@ -11,14 +12,13 @@ class GreedyChange:
         self.coinAmounts = [0 for i in range(len(self.denominations))]
         self.givenTotal = givenTotal
 
-    def computeChange(self):
+    def compute_change(self):
         total = self.givenTotal
         indexLargestRemaining = 0
         while total > 0:
             self.coinAmounts[indexLargestRemaining] = total // self.denominations[indexLargestRemaining]
             total = self.givenTotal % self.denominations[indexLargestRemaining]
             indexLargestRemaining = indexLargestRemaining + 1
-
 
     def __str__(self):
         s = 'Given total: '+ str(self.givenTotal) + '\n'
@@ -27,6 +27,7 @@ class GreedyChange:
         s = s + '-----------------------------\n'
         for (amount, coin) in zip(self.coinAmounts, self.denominations):
             s = s + str(amount) + ' of ' + str(coin) + '\n'
+        s = s + '\n'
             
         return s
 
