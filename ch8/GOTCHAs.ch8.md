@@ -11,10 +11,16 @@
 0. Ensure you have network access to the RPis
    Ubuntu> ping <Rpi IP address>
    
-1. RPI_1_Mine() does not work
+1. RPI_1_Mine.py does not work
    Check that hostname='<GUEST>' has an accessible '<GUEST>' by doing
    Ubuntu> ping <GUEST>
    Get correct <GUEST> address.
+   
+   If you can ping the target machine, then try to SSH to that machine by hand.
+   For example, if this RPi is mapped to port 5022 on the Ubuntu host, then
+   Ubuntu> ssh pi@localhost -p 5022
+   If this RPi is has been assigned an IP address <IP-v4-ADDR> by the WiFi router, then
+   Ubuntu> ssh pi@<IP-v4-ADDR>
 
 2. Can't pub/sub on the same RPi?
      Ensure you did the following recently
