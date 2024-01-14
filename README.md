@@ -5,11 +5,11 @@
 > Copyright (&copy;) 2023-2024 Phillip G. Bradford <br>
 
 #
-### [Repo](github.com/wonder-phil/ChainsThatBindUs) <br>
+### [Repo](https://github.com/wonder-phil/ChainsThatBindUs) <br>
 # This repo is dynamic.  Feel free to do PRs to update this repo. <br>
 
 #  
-### [Videos](www.youtube.com/@Chainsthatbindus-mu6ir)
+### [Videos](https://www.youtube.com/@Chainsthatbindus-mu6ir)
 #
 #
 
