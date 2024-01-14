@@ -1,8 +1,10 @@
-#
-# From: "Chains that bind us" by Phillip G. Bradford
-#  https://github.com/wonder-phil/ChainsThatBindUs
-#     
-#
+# *Chains that bind us*<br>  
+
+> From: "Chains that bind us" by Phillip G. Bradford <br>  
+>>  https://www.amazon.com/Chains-that-bind-Phillip-Bradford-ebook/dp/B0CQWQDJJT <br>  
+> Copyright (&copy;) 2023-2024 Phillip G. Bradford <br>
+
+
 # Block.py is a basic block
 ##
 ## Create and mine blocks in Python3

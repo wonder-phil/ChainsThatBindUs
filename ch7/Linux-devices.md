@@ -14,10 +14,10 @@
 #### A Linux [loop device](https://en.wikipedia.org/wiki/Loop_device) is buffered block device. Loop devices can be mounted 
 #### on Linux.  
 ####
-> Useful Linux commands
->> mount - mount a device - many types of devices including ISO 9660.
->> umount - unmount a device 
->> losetup - setup and work with loop devices
+> Useful Linux commands <br>
+>> mount - mount a device - many types of devices including ISO 9660. <br>
+>> umount - unmount a device  <br>
+>> losetup - setup and work with loop devices <br>
 
 
 

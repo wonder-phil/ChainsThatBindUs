@@ -1,12 +1,11 @@
-# Additional Thanks for "Chains that bind us"
-#
-# From: "Chains that bind us" by Phillip G. Bradford
-#  https://github.com/wonder-phil/ChainsThatBindUs
-#
+# *Chains that bind us*<br>  
+
+> From: "Chains that bind us" by Phillip G. Bradford <br>  
+>>  https://www.amazon.com/Chains-that-bind-Phillip-Bradford-ebook/dp/B0CQWQDJJT <br>  
+> Copyright (&copy;) 2023-2024 Phillip G. Bradford <br>
 
 
-## Many thanks and amplifications!
-
+### Many thanks and amplifications! <br>
 All of my students and worshop attendees. This support has ranged from thoughtful questions
 to deep insights.
 

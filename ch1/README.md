@@ -1,11 +1,12 @@
-#
-# From: "Chains that bind us" by Phillip G. Bradford
-#  https://github.com/wonder-phil/ChainsThatBindUs
-#     
-The functions here are standard and can be found in many places
-# 
+# *Chains that bind us*<br>  
 
-# SingleUserLedger Design
+> From: "Chains that bind us" by Phillip G. Bradford <br>  
+>>  https://www.amazon.com/Chains-that-bind-Phillip-Bradford-ebook/dp/B0CQWQDJJT <br>  
+> Copyright (&copy;) 2023-2024 Phillip G. Bradford <br>
+
+The functions here are standard and can be found in many places <br>
+
+## SingleUserLedger Design
 
 Each instance of the SingleUserLedger class has the following attributes
 
