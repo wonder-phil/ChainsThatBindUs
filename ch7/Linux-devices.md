@@ -1,24 +1,24 @@
-# *Chains that bind us*
-#
-# From: "Chains that bind us" by Phillip G. Bradford
-#  https://www.amazon.com/Chains-that-bind-Phillip-Bradford-ebook/dp/B0CQWQDJJT
-## Copyright (&copy;) 2023-2024 Phillip G. Bradford
+# *Chains that bind us*<br>
+#<br>
+## From: "Chains that bind us" by Phillip G. Bradford<br>
+##  https://www.amazon.com/Chains-that-bind-Phillip-Bradford-ebook/dp/B0CQWQDJJT<br>
+## Copyright (&copy;) 2023-2024 Phillip G. Bradford<br>
 
 
-## ISO disk image
-### An ISO image is an optical disk image.  See for example [ISO](https://en.wikipedia.org/wiki/ISO_9660)
-### ISO files can hold complete images of systems.
-###
+### ISO disk image
+#### An [ISO](https://en.wikipedia.org/wiki/ISO_9660) image is an optical disk image.  
+#### ISO files can hold complete images of systems.
+####
 
-## Loop devices
-### Linux loop devices are buffered block devices. Loop devices can be mounted 
-### on Linux.  [Loop device](https://en.wikipedia.org/wiki/Loop_device)
-###
-## Useful Linux commands
-###
-### mount - mount a device - many types of devices including ISO 9660.
-### umount - unmount a device 
-### losetup - setup and work with loop devices
+### Loop devices
+#### A Linux [loop device](https://en.wikipedia.org/wiki/Loop_device) is buffered block device. Loop devices can be mounted 
+#### on Linux.  
+####
+### Useful Linux commands
+####
+#### mount - mount a device - many types of devices including ISO 9660.
+#### umount - unmount a device 
+#### losetup - setup and work with loop devices
 
 
 
