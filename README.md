@@ -1,10 +1,20 @@
-# Chains that bind us
+# *Chains that bind us*
 #
 # From: "Chains that bind us" by Phillip G. Bradford
-#  https://github.com/wonder-phil/ChainsThatBindUs
+#  https://www.amazon.com/Chains-that-bind-Phillip-Bradford-ebook/dp/B0CQWQDJJT
+## Copyright (&copy;) 2023-2024 Phillip G. Bradford
+
+#
+## [Repo](github.com/wonder-phil/ChainsThatBindUs) 
+#
+# This repo is dynamic.  Feel free to do PRs to update this repo.
+
+#  
+## [Videos](www.youtube.com/@Chainsthatbindus-mu6ir)
+#
+# Videos accompanying the book are here: https://www.youtube.com/@Chainsthatbindus-mu6ir
 #
 
-This repo is dynamic.  Feel free to do PRs to update this repo.
 
 
 ## A few resources to get you started:
