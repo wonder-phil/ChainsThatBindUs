@@ -26,4 +26,6 @@ data = "Greetings - Today is a great day!".encode("utf-8")
 encrypted = rsa.encrypt(data,public_key)
 
 file_out = open("encrypted_data.bin", "wb")
+file_out.write(encrypted)
+file_out.close()
 
