@@ -20,6 +20,15 @@
    Ubuntu> ssh pi@localhost -p 5022
    If this RPi is has been assigned an IP address <IP-v4-ADDR> by the WiFi router, then
    Ubuntu> ssh pi@<IP-v4-ADDR>
+   
+   If you get a timeout error, add variations of the following timeouts:
+   timeout=100,banner_timeout=100, auth_timeout=100
+	to the connect call:
+
+    RPI_1.connect(hostname='localhost',
+	username='rpi',port=5022,password='raspberry', timeout=100, banner_timeout=100, auth_timeout=100 )
+
+
 
 2. Can't pub/sub on the same RPi?
      Ensure you did the following recently
