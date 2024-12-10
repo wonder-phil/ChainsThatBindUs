@@ -11,6 +11,7 @@
 # This repo is dynamic.  Feel free to do PRs to update this repo. <br>
 
 #  
+### [Chains that bind us!](https://www.youtube.com/watch?v=59orG5eDiUk)
 ### [Videos](https://www.youtube.com/@Chainsthatbindus-mu6ir)
 #
 #
