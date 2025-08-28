@@ -21,6 +21,7 @@ class ExampleHash:
 # The next example shows aspects of avalanche criteria
 #
 
+# Python3> from example_hash import ExampleHash
 # Python3> e = ExampleHash()
 # Python3> e.compHash("Hello")
 # > 185f8db32271fe25f561a6fc938b2e264306ec304eda518007d1764826381969
