@@ -2,7 +2,7 @@
 # From: "Chains that bind us" by Phillip G. Bradford
 #  https://github.com/wonder-phil/ChainsThatBindUs
 #     
-qemu-img info 2022-10-10-raspios-armhf-lite.img 
+qemu-img info 2023-10-10-raspios-armhf-lite.img 
 
 
 qemu-img convert -f raw -O qcow2 2023-10-10-raspios-armhf-lite.img   2021-10.qcow2
