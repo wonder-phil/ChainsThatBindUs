@@ -51,3 +51,17 @@
 	  
 5. All publish/subscribe clients must use the same broker.  Beware, each machine has its own paho.mqtt broker.
 
+6. The containers hog the CPU
+   Add import time at the top of CC1.py and CC2.py
+   Insert time.sleep(0.5) in these two places in the main loops:
+   while True:
+    while True: # event loop - mine
+      if len(mine) != 0:
+        print("start mining")
+        break
+      time.sleep(0.25) ###
+    x = b.mine(client,5)
+    time.sleep(0.25) ###
+
+   Also: add --cpus="0.25" to the Docker run commands
+
