@@ -53,15 +53,15 @@
 
 6. The containers hog the CPU
    Add import time at the top of CC1.py and CC2.py
-   Insert time.sleep(0.25) in these two places in the main loops:
-   while True:<br />
-    while True: # event loop - mine<br />
-      if len(mine) != 0:<br />
-        print("start mining")<br />
-        break<br />
-      time.sleep(0.25) ###<br />
-    x = b.mine(client,5)<br />
-    time.sleep(0.25) ###<br />
-
+   Insert time.sleep(0.25) in these two places in the main loops:```
+```while True:
+      while True: # event loop - mine
+         if len(mine) != 0:
+            print("start mining")
+            break
+         time.sleep(0.25) ###<---
+     x = b.mine(client,5)
+     time.sleep(0.25) ###<---
+```
    Also: add --cpus="0.25" to the Docker run commands
 
